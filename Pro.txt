@@ -1,0 +1,16 @@
+>>> num = 7
+>>> chances = 0
+>>> while chances < 5:
+...     guessingNo = input("Guess a number between 0 to 9 ? ")
+...     chances += 1
+...     if(num > guessingNo):
+...             print("The number is greater than your number...")
+...     elif(num < guessingNo):
+...             print("The number is lesser than your number...")
+...     elif(num = guessingNo):
+...		chances = 100
+... if(chances !== 5):
+...     if(chances == 100):
+...             print("Hurray !! You won")
+...     else:
+...		print("Better luck next time!!")
